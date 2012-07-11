@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Birthdays</string>
+	<key>CFBundleIdentifier</key>
+	<string>apple.dts.samplecode.Birthdays</string>
+	<key>CFBundleName</key>
+	<string>Birthdays</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>CloseBoxInsetX</key>
+	<integer>15</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>15</integer>
+	<key>Height</key>
+	<integer>200</integer>
+	<key>MainHTML</key>
+	<string>Birthdays.html</string>
+	<key>Plugin</key>
+	<string>BirthdaysPlugIn.widgetplugin</string>
+	<key>Width</key>
+	<integer>352</integer>
+</dict>
+</plist>

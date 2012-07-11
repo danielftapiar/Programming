@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf270
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;\f2\fnil\fcharset0 LucidaGrande;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh13120\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 Birthdays
+\b0  \
+v1.1\
+\
+
+\b Description
+\b0 \
+This Dashboard widget uses a widget plug-in to find Address Book contacts with birthdays that occur in the current day, week, or month.  The plug-in queries the public Address Book framework and returns matching names, birthdays, and Address Book identifiers.  The latter allows construction of a URL which opens that person's entry in the Address Book application.\
+\
+The widget and an Xcode project for the plug-in are included.\
+\
+
+\b Editing Your Address Book Contacts\
+
+\b0 The birthday property is not visible in Address Book by default.  To add a birthday to a contact in Address Book, do the following:\
+\
+1) Open Address Book Preferences\
+2) Click Template\
+3) In the Add Field dropdown, select Birthday\
+4) Close preferences window\
+5) Select a contact in Address Book\
+6) Click the Edit button\
+\
+You should now be able to enter a birthday for a given contact.  This will allow you to populate data that is visible in the Birthdays widget.  For convenience, a sample Address Book export is included containing birthdays that should show up in the Month view no matter what the current date is.  The records all have a first name of "WWDC" for easy discovery and removal.\
+\
+
+\b Installing the Plug-in\
+
+\b0 The Xcode project's build process does not install the plug-in into the widget.  If you change and/or rebuild the plug-in, you will need to manually insert the new copy into your widget.  To do this, select the widget in the Finder, control-click, and select Show Package Contents.  Place the new widgetplugin bundle at the top level of the widget's contents.\
+\
+
+\b Changes from Previous versions\
+
+\b0 -Set the 
+\f1\fs20 NSPrincipalClass
+\f0\fs24  key of the BirthdaysPlugIn\'92s 
+\f1\fs20 info.plist
+\f0\fs24  file to 
+\f1\fs20 \CocoaLigature0 BirthdaysPlugIn
+\f0\fs24 (name of our main class). We must give a value to 
+\f2 \CocoaLigature1 the 
+\f1\fs20 NSPrincipalClass
+\f2\fs24  property 
+\f0 \CocoaLigature0 according to the Widget Plug-in Bundle section of the Creating a Widget Plug-in documentation. \
+-Replaced NSCalendate  objects with  NSCalendar + NSDate.\
+}
