@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC7CAC41444C88100C2579B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC7CAC31444C88100C2579B /* Foundation.framework */; };
+		AFC7CAC71444C88100C2579B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC7CAC61444C88100C2579B /* main.m */; };
+		AFC7CAD81444C95200C2579B /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC7CAD71444C95200C2579B /* AddressCard.m */; };
+		AFC7CADB1444E9CB00C2579B /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC7CADA1444E9CB00C2579B /* AddressBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFC7CABD1444C88100C2579B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFC7CABF1444C88100C2579B /* Address Book */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Address Book"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC7CAC31444C88100C2579B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFC7CAC61444C88100C2579B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFC7CAC91444C88100C2579B /* Address Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Address Book-Prefix.pch"; sourceTree = "<group>"; };
+		AFC7CAD61444C95200C2579B /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
+		AFC7CAD71444C95200C2579B /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
+		AFC7CAD91444E9CB00C2579B /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		AFC7CADA1444E9CB00C2579B /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC7CABC1444C88100C2579B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC7CAC41444C88100C2579B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC7CAB41444C88100C2579B = {
+			isa = PBXGroup;
+			children = (
+				AFC7CAC51444C88100C2579B /* Address Book */,
+				AFC7CAC21444C88100C2579B /* Frameworks */,
+				AFC7CAC01444C88100C2579B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC7CAC01444C88100C2579B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7CABF1444C88100C2579B /* Address Book */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC7CAC21444C88100C2579B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7CAC31444C88100C2579B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFC7CAC51444C88100C2579B /* Address Book */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7CAC61444C88100C2579B /* main.m */,
+				AFC7CAD61444C95200C2579B /* AddressCard.h */,
+				AFC7CAD71444C95200C2579B /* AddressCard.m */,
+				AFC7CAD91444E9CB00C2579B /* AddressBook.h */,
+				AFC7CADA1444E9CB00C2579B /* AddressBook.m */,
+				AFC7CAC81444C88100C2579B /* Supporting Files */,
+			);
+			path = "Address Book";
+			sourceTree = "<group>";
+		};
+		AFC7CAC81444C88100C2579B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7CAC91444C88100C2579B /* Address Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC7CABE1444C88100C2579B /* Address Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC7CACD1444C88100C2579B /* Build configuration list for PBXNativeTarget "Address Book" */;
+			buildPhases = (
+				AFC7CABB1444C88100C2579B /* Sources */,
+				AFC7CABC1444C88100C2579B /* Frameworks */,
+				AFC7CABD1444C88100C2579B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Address Book";
+			productName = "Address Book";
+			productReference = AFC7CABF1444C88100C2579B /* Address Book */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC7CAB61444C88100C2579B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Estudiante Universidad Tecninca Federico Santa Maria";
+			};
+			buildConfigurationList = AFC7CAB91444C88100C2579B /* Build configuration list for PBXProject "Address Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFC7CAB41444C88100C2579B;
+			productRefGroup = AFC7CAC01444C88100C2579B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC7CABE1444C88100C2579B /* Address Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC7CABB1444C88100C2579B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC7CAC71444C88100C2579B /* main.m in Sources */,
+				AFC7CAD81444C95200C2579B /* AddressCard.m in Sources */,
+				AFC7CADB1444E9CB00C2579B /* AddressBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFC7CACB1444C88100C2579B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFC7CACC1444C88100C2579B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFC7CACE1444C88100C2579B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Address Book/Address Book-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC7CACF1444C88100C2579B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Address Book/Address Book-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC7CAB91444C88100C2579B /* Build configuration list for PBXProject "Address Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC7CACB1444C88100C2579B /* Debug */,
+				AFC7CACC1444C88100C2579B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC7CACD1444C88100C2579B /* Build configuration list for PBXNativeTarget "Address Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC7CACE1444C88100C2579B /* Debug */,
+				AFC7CACF1444C88100C2579B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC7CAB61444C88100C2579B /* Project object */;
+}
