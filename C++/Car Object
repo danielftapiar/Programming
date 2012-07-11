@@ -1,0 +1,59 @@
+// basic file operations
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+class car {
+	
+	private:
+	string *name;
+	string *model;
+	int *year;
+	
+	public:
+	car(string,	 int, string);
+	~car();
+	int accessYear ()
+	{
+		return *year;
+	}
+	string accessModel ()
+	{
+		return *model;
+	}
+	string accessName	()	
+	{
+		return *name;
+	}
+};	
+
+car::car(string c, int a, string b)
+{
+	name = new string;
+	model= new string;
+	year= new int;
+	*name = c;
+	*year = a;
+	*model= b;
+}
+
+car::~car (){
+	delete name;
+	delete model;
+	delete year;
+}
+
+int main (int argc, char const* argv[])
+{
+	car chevy("Chevy",1893,"B320");
+	car ford("Ford", 1923, "F150");
+	cout << "Name:" << chevy.accessName() << endl;
+	cout << "Model:" << chevy.accessModel()<< endl;
+	cout << "Year:" << chevy.accessYear()<<endl;
+	cout << "Name:" << ford.accessName() << endl;
+	cout << "Model:" << ford.accessModel()<< endl;
+	cout << "Year:" << ford.accessYear()<<endl;
+	
+	return 0;
+}

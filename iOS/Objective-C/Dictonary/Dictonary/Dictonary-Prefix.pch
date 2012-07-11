@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Dictonary' target in the 'Dictonary' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

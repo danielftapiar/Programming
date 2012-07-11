@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+
+/**
+ * @author Daniel FTR
+ *
+ */
+
+import java.io.*; //include Java's standard Input and Output routines
+public class Input {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		     int Nota[] = new int[7];
+		     int i;
+		     float suma=0;
+		     for(i=0; i<7; i++)
+		         do
+		          {
+		            StdOut.println("Ingrese la nota "+(i+1)+ " de su quiz");
+		            Nota[i]=StdIn.readInt();
+		          }
+		          while(Nota[i]<=0);
+		     for(i=0;i<7;i++)
+		         suma = suma + Nota[i];
+		     StdOut.println(suma);
+		     StdOut.println("El promedio de sus quices es de "+ (float)(suma/7));
+		    }
+		}
+
+	
+
+

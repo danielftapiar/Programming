@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFAB351C142B9FFA00AE273E /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB351B142B9FFA00AE273E /* XYPoint.m */; };
+		AFF3679114283458003D450B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF3679014283458003D450B /* Foundation.framework */; };
+		AFF3679414283458003D450B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3679314283458003D450B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFF3678A14283458003D450B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFAB351A142B9FFA00AE273E /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		AFAB351B142B9FFA00AE273E /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		AFF3678C14283458003D450B /* XYPoint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XYPoint; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF3679014283458003D450B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFF3679314283458003D450B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFF3679614283458003D450B /* XYPoint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XYPoint-Prefix.pch"; sourceTree = "<group>"; };
+		AFF3679714283458003D450B /* XYPoint.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XYPoint.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF3678914283458003D450B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF3679114283458003D450B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF3678114283458003D450B = {
+			isa = PBXGroup;
+			children = (
+				AFF3679214283458003D450B /* XYPoint */,
+				AFF3678F14283458003D450B /* Frameworks */,
+				AFF3678D14283458003D450B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF3678D14283458003D450B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3678C14283458003D450B /* XYPoint */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF3678F14283458003D450B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3679014283458003D450B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFF3679214283458003D450B /* XYPoint */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3679314283458003D450B /* main.m */,
+				AFAB351A142B9FFA00AE273E /* XYPoint.h */,
+				AFAB351B142B9FFA00AE273E /* XYPoint.m */,
+				AFF3679714283458003D450B /* XYPoint.1 */,
+				AFF3679514283458003D450B /* Supporting Files */,
+			);
+			path = XYPoint;
+			sourceTree = "<group>";
+		};
+		AFF3679514283458003D450B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3679614283458003D450B /* XYPoint-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF3678B14283458003D450B /* XYPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF3679A14283458003D450B /* Build configuration list for PBXNativeTarget "XYPoint" */;
+			buildPhases = (
+				AFF3678814283458003D450B /* Sources */,
+				AFF3678914283458003D450B /* Frameworks */,
+				AFF3678A14283458003D450B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYPoint;
+			productName = XYPoint;
+			productReference = AFF3678C14283458003D450B /* XYPoint */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF3678314283458003D450B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AFF3678614283458003D450B /* Build configuration list for PBXProject "XYPoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFF3678114283458003D450B;
+			productRefGroup = AFF3678D14283458003D450B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF3678B14283458003D450B /* XYPoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF3678814283458003D450B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF3679414283458003D450B /* main.m in Sources */,
+				AFAB351C142B9FFA00AE273E /* XYPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFF3679814283458003D450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFF3679914283458003D450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFF3679B14283458003D450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XYPoint/XYPoint-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFF3679C14283458003D450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XYPoint/XYPoint-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF3678614283458003D450B /* Build configuration list for PBXProject "XYPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF3679814283458003D450B /* Debug */,
+				AFF3679914283458003D450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF3679A14283458003D450B /* Build configuration list for PBXNativeTarget "XYPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF3679B14283458003D450B /* Debug */,
+				AFF3679C14283458003D450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF3678314283458003D450B /* Project object */;
+}

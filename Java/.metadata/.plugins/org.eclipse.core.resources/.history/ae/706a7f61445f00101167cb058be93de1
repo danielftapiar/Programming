@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+
+/**
+ * @author Daniel FTR
+ *
+ */
+public class Circulos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int radio;
+		StdOut.println("Ingrese el radio: ");
+		radio=StdIn.readInt();
+		
+		StdOut.println("Perimetro:" + 2*radio*3.141);
+		StdOut.println("Area: " + radio*radio );
+		 StdOut.println(Math.round(Math.PI));
+		
+
+
+	}
+
+}

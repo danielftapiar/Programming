@@ -1,0 +1,28 @@
+section
+{
+	border: 0;
+
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+article
+{
+	padding-top: 0;
+}
+
+pre
+{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+span.enlarge-image
+{
+	display: none;
+}

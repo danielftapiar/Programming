@@ -1,0 +1,9 @@
+Computador
+300000
+13
+Sofa
+400000
+0
+Mochilas
+20000
+11

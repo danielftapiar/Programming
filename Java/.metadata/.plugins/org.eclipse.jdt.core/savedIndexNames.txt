@@ -1,0 +1,17 @@
+INDEX VERSION 1.126+/home/citadel/Dropbox/Daniel/Universidad/Programming/Java/.metadata/.plugins/org.eclipse.jdt.core
+1393721363.index
+2686503099.index
+516116778.index
+1445151894.index
+2937265160.index
+925624498.index
+1193566714.index
+1796948596.index
+3223902160.index
+737766193.index
+2402777215.index
+2040264796.index
+2889915287.index
+406065318.index
+1189062746.index
+1654635368.index

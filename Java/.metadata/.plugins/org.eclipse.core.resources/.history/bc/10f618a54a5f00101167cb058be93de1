@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+
+/**
+ * @author Daniel.Tapia FTR
+ *
+ */
+public class Time {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int horactual,next,i,cont;
+		StdOut.print("Hora Actual: ");
+		horactual=StdIn.readInt();
+		StdOut.print("Cantidad de Horas: ");
+		next=StdIn.readInt();
+		cont=next;
+		while(cont>0)
+		{
+			println("SDF");
+			horactual=horactual+1;
+			cont=cont-1;
+			if (horactual==24)
+				horactual=0;
+			
+		}
+		StdOut.println("En " + next + " horas, el reloj marcara las " + horactual );
+	}
+
+	private static void println(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

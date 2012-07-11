@@ -1,0 +1,807 @@
+!SESSION 2011-04-04 21:27:09.140 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.ide 2 4 2011-04-04 22:07:44.122
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2011-04-04 22:07:44.122
+!MESSAGE The project description file (.project) for 'Programming' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2011-04-04 19:14:07.527 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2011-04-04 19:16:17.657
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2011-04-04 19:16:17.657
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2011-04-04 19:16:17.657
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2011-04-04 19:16:17.657
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2011-04-04 19:16:17.657
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-04-04 19:16:17.657
+!MESSAGE Unable to restore perspective: Workspace - Java.
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.657
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2011-04-04 19:16:17.657
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.657
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.657
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.657
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-04-04 19:16:17.658
+!MESSAGE Could not create view: org.eclipse.mylyn.tasks.ui.views.tasks
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.mylyn.tasks.ui.views.tasks
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1247)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1217)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3205)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-04-04 19:16:17.668
+!MESSAGE Could not create view: org.eclipse.mylyn.tasks.ui.views.tasks
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.668
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.668
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.668
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.668
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.669
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-04-04 19:16:17.669
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2011-04-04 19:16:17.669
+!MESSAGE Could not find view: org.eclipse.mylyn.tasks.ui.views.tasks
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2011-04-04 19:16:17.672
+!MESSAGE OK
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-04-04 19:16:19.625
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:3410)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 19:16:20.102
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:218)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1916)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:255)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:335)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-04-04 19:16:20.138
+!MESSAGE An internal error occurred during: "Update Installed JREs".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.ProjectReferenceChange.updateProjectReferencesIfNecessary(ProjectReferenceChange.java:46)
+	at org.eclipse.jdt.internal.core.ChangeClasspathOperation.classpathChanged(ChangeClasspathOperation.java:59)
+	at org.eclipse.jdt.internal.core.SetContainerOperation.executeOperation(SetContainerOperation.java:110)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:793)
+	at org.eclipse.jdt.core.JavaCore.setClasspathContainer(JavaCore.java:4759)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:69)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.rebind(LaunchingPlugin.java:298)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.access$0(LaunchingPlugin.java:263)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.run(LaunchingPlugin.java:251)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:255)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:335)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 19:26:46.077
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getNonChainingJarsCache(JavaModelManager.java:2908)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveNonChainingJarsCache(JavaModelManager.java:3719)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4000)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:343)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:163)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1012)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:1831)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:453)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2011-04-04 19:26:58.835
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2011-04-04 19:26:58.856
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 566 2011-04-04 19:26:58.856
+!MESSAGE Problems occurred during save.
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getNonChainingJarsCache(JavaModelManager.java:2908)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveNonChainingJarsCache(JavaModelManager.java:3719)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4000)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:343)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:163)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1012)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:1831)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:453)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2011-04-04 22:34:07.303 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jdt.core 4 4 2011-04-04 22:34:22.466
+!MESSAGE Unable to read non-chaining jar cache file
+!STACK 0
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.eclipse.jdt.internal.core.JavaModelManager.loadNonChainingJarsCache(JavaModelManager.java:2877)
+	at org.eclipse.jdt.internal.core.JavaModelManager.<init>(JavaModelManager.java:1513)
+	at org.eclipse.jdt.internal.core.JavaModelManager.<clinit>(JavaModelManager.java:1048)
+	at org.eclipse.jdt.core.JavaCore.start(JavaCore.java:4965)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:266)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2406)
+	at java.lang.Class.getConstructor0(Class.java:2716)
+	at java.lang.Class.newInstance0(Class.java:343)
+	at java.lang.Class.newInstance(Class.java:325)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:152)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:751)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:266)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:267)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:263)
+	at org.eclipse.ui.internal.registry.EditorDescriptor.createEditor(EditorDescriptor.java:235)
+	at org.eclipse.ui.internal.EditorManager.createPart(EditorManager.java:845)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:606)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-04-04 22:34:41.404
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:3410)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 22:35:26.281
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2586)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:218)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1916)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run(WorkbenchRunnableAdapter.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 22:35:26.480
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.getRootInfos(DeltaProcessingState.java:304)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.initializeRoots(DeltaProcessingState.java:249)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1971)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:136)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 22:35:26.743
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2586)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.getRootInfos(DeltaProcessingState.java:304)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.initializeRoots(DeltaProcessingState.java:249)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.processResourceDelta(DeltaProcessor.java:1753)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1943)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 22:35:36.798
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2586)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.getRootInfos(DeltaProcessingState.java:304)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.initializeRoots(DeltaProcessingState.java:249)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.processResourceDelta(DeltaProcessor.java:1753)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1943)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-04 22:35:36.963
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.getRootInfos(DeltaProcessingState.java:304)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.initializeRoots(DeltaProcessingState.java:249)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1971)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:136)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2011-04-04 22:35:41.284
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:424)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:515)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:252)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:238)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1561)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2268)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1279)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1186)
+	at org.eclipse.jdt.internal.core.manipulation.JavaElementPropertyTester.test(JavaElementPropertyTester.java:155)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:91)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:217)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:136)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:235)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1176)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1200)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1185)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1025)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1268)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1248)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1237)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1210)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1176)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1200)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1181)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:627)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1535)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4185)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1860)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3110)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2011-04-05 02:04:12.375 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jdt.launching 4 107 2011-04-05 02:06:13.195
+!MESSAGE Launch configuration BinaryStdIn references non-existing project Test.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2011-04-05 02:06:33.582
+!MESSAGE Launch configuration BinaryStdIn references non-existing project Test.
+!SESSION 2011-04-06 05:40:29.118 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jdt.launching 4 107 2011-04-06 05:40:51.600
+!MESSAGE Launch configuration BinaryStdIn references non-existing project Test.
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-06 05:41:07.462
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2586)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.getRootInfos(DeltaProcessingState.java:304)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.initializeRoots(DeltaProcessingState.java:249)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.processResourceDelta(DeltaProcessor.java:1753)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1943)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2011-04-06 05:41:07.641
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.getRootInfos(DeltaProcessingState.java:304)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.initializeRoots(DeltaProcessingState.java:249)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1971)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:136)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2011-04-06 05:41:08.828
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2169)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:34)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2011-04-06 05:41:08.838
+!MESSAGE Exception in Decorator. The 'Java Build Path Indicator' decorator will be disabled.
+
+!ENTRY org.eclipse.ui 4 4 2011-04-06 05:41:08.841
+!MESSAGE Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2169)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:34)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 4 2 2011-04-06 05:41:11.496
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: C:/Users/Daniel FTR/Documents/My Dropbox/Daniel/Universidad/Programming/Java/stdlib.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at org.eclipse.jdt.internal.core.UserLibrary.createFromString(UserLibrary.java:188)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.initialize(UserLibraryManager.java:81)
+	at org.eclipse.jdt.internal.core.UserLibraryManager.<init>(UserLibraryManager.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getUserLibraryManager(JavaModelManager.java:2362)
+	at org.eclipse.jdt.internal.core.UserLibraryClasspathContainerInitializer.initialize(UserLibraryClasspathContainerInitializer.java:53)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1813)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:547)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.isExcluded(ClasspathModifier.java:484)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.IncludeToBuildpathAction.canHandle(IncludeToBuildpathAction.java:167)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.BuildpathModifierAction.selectionChanged(BuildpathModifierAction.java:101)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:162)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:897)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:160)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1160)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1190)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:228)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:222)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:389)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1176)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3493)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3112)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)

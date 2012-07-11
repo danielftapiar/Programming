@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+
+/**
+ * @author Daniel.Tapia FTR
+ *
+ */
+public class Time {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int horactual,next,i,j clock;
+		StdOut.print("Hora Actual: ");
+		horactual=StdIn.readInt();
+		StdOut.print("Cantidad de Horas: ");
+		next=StdIn.readInt();
+		while(next<0)
+		{
+			horactual=horactual+1;
+			next=next-1;
+			if (horactual==24)
+				horactual=0;
+			
+		}
+	}
+
+}

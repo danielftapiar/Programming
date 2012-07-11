@@ -1,0 +1,16 @@
+Ubuntu Commands
+
+lspci -v     System Information
+
+
+
+
+MY NETWORK CARD
+03:00.0 Network controller: Broadcom Corporation BCM4311 802.11b/g WLAN (rev 02)
+	Subsystem: Hewlett-Packard Company BCM4311 802.11b/g Wireless LAN Controller
+	Flags: fast devsel, IRQ 19
+	Memory at b8000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: wl
+	Kernel modules: wl, ssb
+

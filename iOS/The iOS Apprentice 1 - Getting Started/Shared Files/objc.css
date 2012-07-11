@@ -1,0 +1,20 @@
+.objc .imp {font-weight: bold; color: red;}
+.objc .kw1 {color: #A80D90;}  /* Objective-C keywords */
+.objc .kw2 {color: #A80D90;}  /* macros and constants */
+.objc .kw3 {color: #2E0D6D;}  /* C standard library functions */
+.objc .kw4 {color: #A80D90;}  /* datatypes */
+.objc .kw5 {color: #5B2499;}  /* Foundation classes */
+.objc .kw6 {color: #5B2499;}  /* Foundation protocols */
+.objc .kw7 {color: #5B2499;}  /* UIKit classes */
+.objc .kw8 {color: #5B2499;}  /* UIKit protocols */
+.objc .kw9 {color: #5B2499;}  /* CoreData classes */
+.objc .co1 {color: #63381F;}  /* preprocessor statements */
+.objc .co2 {color: #007400;}  /* single-line comments */
+.objc .co3 {color: #bf1d1a;}
+.objc .coMULTI {color: #007400;}  /* multiline comments */
+.objc .es0 {color: #C31A14;}  /* escapes */
+.objc .br0 {color: #000000;}  /* brackets */
+.objc .sy0 {color: #000000;}  /* symbols */
+.objc .st0 {color: #C31A14;}  /* string literals */
+.objc .nu0 {color: #1C00CD;}  /* number literals */
+.objc span.xtra { display:block; }

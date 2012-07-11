@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+
+/**
+ * @author Daniel FTR
+ *
+ */
+
+public class Input
+{
+	public static void main (String args[])
+	{
+		String a;
+		a=StdIn.readString();
+		StdOut.println(a);		
+	}
+}
+	
+
+
